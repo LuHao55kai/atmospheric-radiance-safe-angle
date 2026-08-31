@@ -1,0 +1,14 @@
+evidence_id,evidence_level,scope,metric,value,unit,interpretation
+simulation_total,in_domain_simulation,117 complete band-scene-visibility cases,raw_record_count,2007837,count,frozen full-geometry audit
+simulation_vis,in_domain_simulation,39 VIS cases,mean_r2,0.9957570776530702,fraction,envelope fit
+simulation_nir,in_domain_simulation,39 NIR cases,mean_r2,0.9970068075547754,fraction,simulation adaptation evidence
+simulation_mwir,in_domain_simulation,39 MWIR cases,mean_r2,0.9891540490569819,fraction,simulation adaptation evidence
+vis_loso,cross_validation,39 held-out VIS cases,mean_r2,0.9945,fraction,one complete scene-visibility case withheld per fold
+vis_loso,cross_validation,39 held-out VIS cases,mean_nrmse,0.0136,fraction,one complete scene-visibility case withheld per fold
+vis_baseline,structural_ablation,39 VIS cases,highangle_nrmse_reduction,0.865,fraction,120-180 degree region
+vis_baseline,structural_ablation,39 VIS cases,tail150_nrmse_reduction,0.871,fraction,150-180 degree region
+field_vis,restricted_field_evaluation,two accepted days at one rural site,strict_point_count,17458,count,raw spectra not redistributed
+field_vis,restricted_field_evaluation,two accepted days at one rural site,base_curve_pointwise_coverage,0.99427196700653,fraction,external meteorological visibility proxy
+aeronet_vis,public_scan_diagnostic,9907 scans across multiple stations,angular_sample_count,161367,count,two-channel VIS engineering proxy
+aeronet_vis,public_scan_diagnostic,9907 scans across multiple stations,base_curve_engineering_coverage,0.8791,fraction,not a broadband absolute-radiance blind test
+safe_angle_query,implementation_benchmark,1650 angular nodes,median_ms_per_query,0.135949396,ms,Apple M1 single-process Python and NumPy

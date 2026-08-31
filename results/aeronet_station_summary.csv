@@ -1,0 +1,4 @@
+scene,station,matched_visibility_km,matched_curve_count,sample_count,base_curve_coverage,same_site_multiplier_99,interpretation
+maritime,Ascension Island,22,600,9791,0.9848,1.056,engineering angular-trend diagnostic
+desert,SEDE BOKER,30,893,15542,0.9813,1.095,engineering angular-trend diagnostic
+rural,BONDVILLE,18,84,1604,0.9495,1.295,engineering angular-trend diagnostic

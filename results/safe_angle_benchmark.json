@@ -1,0 +1,21 @@
+{
+  "purpose": "Illustrative local runtime of one formula evaluation plus robust backward safe-angle search",
+  "hardware": "Apple M1, 8 CPU cores, 16 GB memory",
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "implementation": "Python/NumPy, single process",
+  "angle_domain_deg": [
+    15.0,
+    179.9
+  ],
+  "angle_step_deg": 0.1,
+  "grid_points": 1650,
+  "warmup_queries": 1000,
+  "repeats": 9,
+  "queries_per_repeat": 2000,
+  "median_ms_per_query": 0.135949396,
+  "min_ms_per_query": 0.1357237915,
+  "max_ms_per_query": 0.13632279149999998,
+  "illustrative_theta_min_deg": 97.4999999999997,
+  "claim_boundary": "This is an implementation benchmark, not a certified real-time bound and not a same-platform speed comparison with MODTRAN."
+}
